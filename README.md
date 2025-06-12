@@ -25,16 +25,21 @@
 - **Next.js**
 - **TypeScript**
 - **Tailwind CSS**
-- **shadcn/ui**：シンプルなUIを素早く開発するために使用。
+- **shadcn/ui**：TailwindCSSベースでシンプルなUIを素早く開発するために使用。
 - **React Hook Form**：効率的なフォーム管理に使用。
-- **Zod**：フォーム入力時の型安全なバリデーションを行うために使用。
-- **Prisma**：ORMとして使用。
+- **Zod**：フォーム入力時・Server Actions実行時の型安全なバリデーションを行うために使用。
+- **Prisma**：PostgreSQLのORMとして使用。
 - **Auth.js v5**：認証・認可・アクセスコントロール機能の実装に使用。
 - **Resend**：メール送信サービス。アカウントの登録や変更時のメール送信・メールアドレス認証で使用。
 - **Supabase**：PostgreSQLベースのクラウドDB。ローカル開発はDockerで再現可能。
+- **Google Cloud / GoogleAPI**：未公開のGoogleカレンダーから情報を取得するために使用
 - **ESLint / Prettier**：コード品質維持のための静的解析・フォーマッターとして使用。
 
 ---
+
+## アーキテクチャ図
+
+![アーキテクチャ図](public/images/architecture.png)
 
 ## 必要な事前準備
 
