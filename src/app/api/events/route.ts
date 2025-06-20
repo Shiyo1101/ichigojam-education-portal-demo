@@ -2,6 +2,8 @@ import type { calendar_v3 } from 'googleapis';
 import type { NextRequest } from 'next/server';
 import { NextResponse } from 'next/server';
 
+export const runtime = 'edge';
+
 // const Credentials = {
 //   type: process.env.GOOGLE_CREDENTIALS_TYPE || '',
 //   project_id: process.env.GOOGLE_PROJECT_ID || '',

@@ -1,5 +1,7 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 
+export const runtime = 'edge';
+
 const GuestPage = () => {
   return (
     <main className="h-full flex flex-col items-center justify-center">

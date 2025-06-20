@@ -6,6 +6,8 @@ import { MemoWidget } from '@/components/Top/main/memo-widget';
 import SlideWidget from '@/components/Top/main/slide-widget';
 import VisualWidget from '@/components/Top/main/visual-widget';
 
+export const runtime = 'edge';
+
 export default function Home() {
   return (
     <>
